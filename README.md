@@ -24,4 +24,14 @@ limitations under the License.
 
 Using sharp to create a demo on how the module could be used.
 
+*** developing stage comments and instructions ***
+
+After fetching the new updates from git,  Install npm in file since I did not upload node_modules.
+ Be located in your file in the terminal and write  npm install npm install sharp   Install should be successful.   Test it! Write:   npm start.  If it works it should start on port 8080!   Sharp has a problem with Mac. Or rather, my Mac. Here’s some instructions
+for us maccers.  It required to install or re-install some things to work. Make sure you have Xcode, home-brew and the lib vips..
+
+Xcode-select —install  If you have it, just continue.   Install homebrew. Install homebrew on user/local.
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ When homebrew is done, install vips. Simply write (assuming that you’re still in (user/local), in the command line: Install brew vips  Sit back and wait.   Go to your file and try npm start. It should say that it started on port 8080!  If it still doesn’t work, you need to uninstall brew and re-install it. Then again, install vips. Instructions further up in the doc.   To uninstall brew:   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+ 
 
